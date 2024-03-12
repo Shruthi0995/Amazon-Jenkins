@@ -22,8 +22,7 @@ pipeline {
         }
 
     }
-
-  post{
+post{
     
   failure{
        echo 'Failure in the build'
